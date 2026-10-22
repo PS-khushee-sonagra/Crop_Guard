@@ -1,0 +1,52 @@
+{
+  "crop": "tomato",
+  "issues": [
+    {
+      "id": "early_blight",
+      "name": "Early blight",
+      "symptoms": ["dark rings", "yellow edges", "leaf spot", "concentric rings"],
+      "lookalikes": ["Septoria leaf spot", "Bacterial leaf spot"],
+      "favorable_conditions": ["warm humid weather", "dewy mornings"],
+      "ipm_steps": [
+        "Remove lower infected leaves and prune to improve airflow.",
+        "Mulch the soil to reduce splash of spores from the ground.",
+        "Avoid overhead irrigation and water early in the day.",
+        "Use copper or other registered foliar protectant as recommended locally."
+      ],
+      "sources": ["ICAR disease notes", "FAO crop protection"]
+    },
+    {
+      "id": "septoria_leaf_spot",
+      "name": "Septoria leaf spot",
+      "symptoms": ["small circular lesions", "tan spots", "yellow halo", "lower leaves"],
+      "lookalikes": ["Early blight", "Target leaf spot"],
+      "favorable_conditions": ["cool wet weather", "dense canopy"],
+      "ipm_steps": [
+        "Prune and thin the canopy to reduce humidity.",
+        "Remove infected lower leaves and keep foliage dry.",
+        "Rotate away from solanaceous crops and reduce splash risk.",
+        "Apply registered fungicide if disease pressure is high."
+      ],
+      "sources": ["ICAR disease notes", "FAO crop protection"]
+    },
+    {
+      "id": "blossom_end_rot",
+      "name": "Blossom-end rot",
+      "symptoms": ["dark patch at blossom end", "fruit lesion", "sunken area", "water-soaked tissue"],
+      "lookalikes": ["Anthracnose", "Fruit cracking"],
+      "favorable_conditions": ["water stress", "irregular irrigation"],
+      "ipm_steps": [
+        "Maintain even soil moisture with regular irrigation.",
+        "Avoid sudden drought or overwatering cycles.",
+        "Use balanced calcium nutrition and avoid root stress.",
+        "Remove badly affected fruits and monitor remaining fruit."
+      ],
+      "sources": ["ICAR vegetable pathology", "FAO guidance"]
+    }
+  ],
+  "prevention": [
+    "Use resistant varieties where available.",
+    "Keep the canopy open and avoid overhead watering.",
+    "Scout weekly and remove infected leaves promptly."
+  ]
+}

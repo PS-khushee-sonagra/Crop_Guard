@@ -1,0 +1,36 @@
+{
+  "crop": "wheat",
+  "issues": [
+    {
+      "id": "leaf_rust",
+      "name": "Leaf rust",
+      "symptoms": ["orange pustules", "leaf patches", "rust colored spores"],
+      "lookalikes": ["Stripe rust", "Powdery mildew"],
+      "favorable_conditions": ["mild temperature", "high humidity"],
+      "ipm_steps": [
+        "Monitor leaves weekly and remove volunteer wheat.",
+        "Use resistant varieties and timely sowing.",
+        "Apply registered fungicide when disease reaches threshold."
+      ],
+      "sources": ["ICAR wheat pathology"]
+    },
+    {
+      "id": "powdery_mildew",
+      "name": "Powdery mildew",
+      "symptoms": ["white powdery coating", "leaf surface", "floury patches"],
+      "lookalikes": ["Leaf rust", "Nutrient burn"],
+      "favorable_conditions": ["cool humid air", "dense canopy"],
+      "ipm_steps": [
+        "Improve spacing and reduce canopy humidity.",
+        "Avoid excess nitrogen and maintain balanced nutrition.",
+        "Use registered fungicide at early disease onset."
+      ],
+      "sources": ["ICAR wheat pathology"]
+    }
+  ],
+  "prevention": [
+    "Sow healthy seed and use resistant cultivars.",
+    "Avoid dense canopy and excess nitrogen.",
+    "Review weather-driven disease alerts before spraying."
+  ]
+}

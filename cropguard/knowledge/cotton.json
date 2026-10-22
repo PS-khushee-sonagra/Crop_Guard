@@ -1,0 +1,36 @@
+{
+  "crop": "cotton",
+  "issues": [
+    {
+      "id": "boll_rot",
+      "name": "Boll rot",
+      "symptoms": ["dark wet bolls", "soft fruit", "decaying boll"],
+      "lookalikes": ["Fusarium wilt", "Bacterial blight"],
+      "favorable_conditions": ["high humidity", "late season rain"],
+      "ipm_steps": [
+        "Avoid irrigation during peak humidity periods.",
+        "Manage canopy to improve airflow and reduce wetness.",
+        "Remove infected bolls from the field and monitor adjacent plants."
+      ],
+      "sources": ["ICAR cotton pathology"]
+    },
+    {
+      "id": "jassid_damage",
+      "name": "Jassid damage",
+      "symptoms": ["yellowing leaves", "curling leaves", "leafhopper feeding"],
+      "lookalikes": ["Nutrient stress", "Thrips damage"],
+      "favorable_conditions": ["dry warm weather", "early crop stage"],
+      "ipm_steps": [
+        "Monitor early-season insect populations and destroy infested weeds.",
+        "Use recommended resistant varieties and action thresholds.",
+        "Apply registered insecticide only when thresholds are exceeded."
+      ],
+      "sources": ["ICAR cotton IPM"]
+    }
+  ],
+  "prevention": [
+    "Use clean seed and avoid high-density canopy stress.",
+    "Monitor insects and disease at early crop stages.",
+    "Keep moisture and nutrient stress in check."
+  ]
+}
